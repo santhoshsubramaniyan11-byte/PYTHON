@@ -8,7 +8,7 @@ with sync_playwright() as p:
     page.goto("http://172.16.16.70/codetrack/Login")
 
     print("CodeTrack opened.")
-    print("Please enter username/password and click SignIn.")
+    print("Please enter username/password and click SignIn or else.")
 
     # Wait for manual login
     page.wait_for_timeout(10000)
